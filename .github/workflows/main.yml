@@ -1,9 +1,8 @@
 name: Deploy to Azure VM
-
 on:
   push:
     branches:
-      - main  # Change this to your main branch if necessary
+      - master  # Change this to your main branch if necessary
 
 jobs:
   deploy:
